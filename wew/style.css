@@ -13,14 +13,16 @@ body {
   background-color: #1a1a2e;
   font-family: sans-serif;
   color: white;
+  overflow-x: hidden;
+  padding: 16px;     
 }
 
 .card-container {
-    width: 500px;
-    height: auto;
-    aspect-ratio: 8 / 7;
-    perspective: 1000px;
-    cursor: pointer;
+  width: 90vw;        
+  max-width: 480px;     
+  height: auto;
+  aspect-ratio: 8 / 7;  
+  cursor: pointer;
 }
 
 .card {
